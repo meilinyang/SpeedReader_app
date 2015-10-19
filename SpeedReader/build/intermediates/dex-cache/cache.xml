@@ -16,27 +16,6 @@
         <dex dex="C:\Users\Mei Lin\Documents\GitHub\SpeedReader_app\SpeedReader\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-fe6ee01c391d329a07a02133435be06b9fcc5d53.jar" />
     </item>
     <item
-        jar="C:\Users\Mei Lin\AndroidStudioProjects\SpeedReader\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="C:\Users\Mei Lin\AndroidStudioProjects\SpeedReader\app\build\intermediates\pre-dexed\debug\classes-884a36807989ac98e34d5d4d15870ab9fa22530f.jar" />
-    </item>
-    <item
-        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="C:\Users\Mei Lin\AndroidStudioProjects\SpeedReader\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-036d4f6abf1af3a69bdd91c577da918ead884ec2.jar" />
-    </item>
-    <item
-        jar="C:\Users\Mei Lin\AndroidStudioProjects\SpeedReader\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="C:\Users\Mei Lin\AndroidStudioProjects\SpeedReader\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-e4660eff200689745e0176cd487be8d9e69fd4a2.jar" />
-    </item>
-    <item
         jar="C:\Users\Mei Lin\AndroidStudioProjects\SpeedReader\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -44,11 +23,32 @@
         <dex dex="C:\Users\Mei Lin\AndroidStudioProjects\SpeedReader\app\build\intermediates\pre-dexed\debug\classes-f32c4dec8ebac82d5c3ad490d6b5b80b5eaedde3.jar" />
     </item>
     <item
+        jar="C:\Users\Mei Lin\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\Mei Lin\Documents\GitHub\SpeedReader_app\SpeedReader\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-f62720356d42d24bb1fa124986fef175ca6d39ec.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mei Lin\AndroidStudioProjects\SpeedReader\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\Mei Lin\AndroidStudioProjects\SpeedReader\app\build\intermediates\pre-dexed\debug\classes-884a36807989ac98e34d5d4d15870ab9fa22530f.jar" />
+    </item>
+    <item
         jar="C:\Users\Mei Lin\Documents\GitHub\SpeedReader_app\SpeedReader\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="d84409890828e07d344a3b9b1da545dba9897b51">
         <dex dex="C:\Users\Mei Lin\Documents\GitHub\SpeedReader_app\SpeedReader\app\build\intermediates\pre-dexed\debug\classes-fee7a83a374a17f5bad2c6a886b85edfe4e5edfa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mei Lin\AndroidStudioProjects\SpeedReader\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Mei Lin\AndroidStudioProjects\SpeedReader\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-e4660eff200689745e0176cd487be8d9e69fd4a2.jar" />
     </item>
 
 </items>

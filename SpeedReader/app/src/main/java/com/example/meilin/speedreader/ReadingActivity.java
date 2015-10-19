@@ -1,6 +1,5 @@
 package com.example.meilin.speedreader;
 
-import android.app.Activity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -75,7 +74,10 @@ public class ReadingActivity extends ActionBarActivity {
 
     private View.OnClickListener StopReader = new View.OnClickListener() {
         public void onClick(View v) {
-
+            readerThread.suspend();
+            readerThread = null;
+            TextView tv = (TextView) findViewById(R.id.textView);
+            tv.setText("");
         }
     };
 
@@ -94,66 +96,4 @@ public class ReadingActivity extends ActionBarActivity {
         return list;
     }
 
-
-
-/*
-    boolean running;
-    boolean onPaused = false;
-    final TextView tv = (TextView) findViewById(R.id.textView);
-
-    private View.OnClickListener PlayReader = new View.OnClickListener() {
-        public void onClick(View v) {
-            tv.setTextSize(24);
-            running = true;
-            LinkedList<String> list = parseText();
-            if(onPaused) {
-                ActivateReader(list);
-            } else {
-                list = parseText();
-                ActivateReader(list);
-            }
-        }
-    };
-
-    public void ActivateReader(final LinkedList<String> q) {
-        new Thread(new Runnable() {
-            public void run() {
-                try {
-                    while (running) {
-                        runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                if (!q.isEmpty()) {
-                                    tv.setText(q.remove());
-                                } else {
-                                    //stop
-                                    running = false;
-                                }
-                            }
-                        });
-                        Thread.sleep(2000);
-                    }
-                } catch (InterruptedException e) {
-                    running = false;
-                }
-            }
-        }).start();
-    }
-
-    private View.OnClickListener PauseReader = new View.OnClickListener() {
-        public void onClick(View v) {
-            running = false;
-            onPaused=true;
-        }
-    };
-
-    private View.OnClickListener StopReader = new View.OnClickListener() {
-        public void onClick(View v) {
-            running = false;
-            onPaused = false;
-            //restart
-        }
-    };
-
-*/
     }

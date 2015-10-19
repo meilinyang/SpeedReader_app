@@ -4,6 +4,7 @@ import android.app.ActionBar;
 import android.app.Activity;
 import android.support.v7.app.ActionBarActivity;
 import android.widget.TextView;
+
 import java.util.LinkedList;
 
 /**
@@ -12,8 +13,8 @@ import java.util.LinkedList;
 public class Reader implements Runnable {
 
     private Thread t;
-    boolean running=true;
-    boolean suspended=false;
+    boolean running = true;
+    boolean suspended = false;
     TextView tv;
     LinkedList<String> list;
     Activity currentActivity;
@@ -29,7 +30,7 @@ public class Reader implements Runnable {
     }
 
     public void start() {
-        if(t == null) {
+        if (t == null) {
             t = new Thread(this, "derp");
             t.start();
         }
@@ -65,23 +66,10 @@ public class Reader implements Runnable {
     void suspend() {
         suspended = true;
     }
+
     synchronized void resume() {
         suspended = false;
         notify();
     }
 
-    private LinkedList<String> parseText() {
-        LinkedList<String> list = new LinkedList<String>();
-        String temp = "";
-        String text = currentActivity.getResources().getString(R.string.string_read);
-        for (int i = 0; i < text.length(); i++) {
-            if (text.charAt(i) == ' ') {//add more conditions
-                list.add(temp);
-                temp = "";
-            } else {
-                temp += text.charAt(i);
-            }
-        }
-        return list;
-    }
 }

@@ -1345,6 +1345,7 @@ containing a value of this type.
         public static final int icon=0x7f0c0026;
         public static final int ifRoom=0x7f0c0018;
         public static final int image=0x7f0c0023;
+        public static final int importEpub=0x7f0c0045;
         public static final int linearlayout=0x7f0c003f;
         public static final int listMode=0x7f0c0009;
         public static final int list_item=0x7f0c0025;
